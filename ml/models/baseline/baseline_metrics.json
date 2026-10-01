@@ -1,0 +1,601 @@
+{
+  "domain": {
+    "best_algorithm": "Linear SVM",
+    "metrics": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0
+    },
+    "lr_metrics": {
+      "accuracy": 0.9843,
+      "precision_macro": 0.9695,
+      "recall_macro": 0.915,
+      "macro_f1": 0.9402,
+      "weighted_f1": 0.9838
+    },
+    "svm_metrics": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0
+    },
+    "labels": [
+      0,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        72,
+        0
+      ],
+      [
+        0,
+        885
+      ]
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 72.0
+      },
+      "1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 885.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 957.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 957.0
+      }
+    }
+  },
+  "category": {
+    "best_algorithm": "Linear SVM",
+    "metrics": {
+      "accuracy": 0.9797,
+      "precision_macro": 0.9843,
+      "recall_macro": 0.931,
+      "macro_f1": 0.9525,
+      "weighted_f1": 0.9793
+    },
+    "lr_metrics": {
+      "accuracy": 0.9153,
+      "precision_macro": 0.8946,
+      "recall_macro": 0.7494,
+      "macro_f1": 0.8067,
+      "weighted_f1": 0.91
+    },
+    "svm_metrics": {
+      "accuracy": 0.9797,
+      "precision_macro": 0.9843,
+      "recall_macro": 0.931,
+      "macro_f1": 0.9525,
+      "weighted_f1": 0.9793
+    },
+    "labels": [
+      "Cardiology",
+      "Dermatology",
+      "Endocrinology",
+      "Gastroenterology",
+      "General Medicine",
+      "Genetics & Rare Diseases",
+      "Infectious Disease",
+      "Medication & Pharmacology",
+      "Mental Health",
+      "Neurology",
+      "Oncology",
+      "Orthopedics & Rheumatology",
+      "Respiratory"
+    ],
+    "confusion_matrix": [
+      [
+        30,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        16,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        39,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        30,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        246,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        248,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        84,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        87,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        28,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        22
+      ]
+    ],
+    "classification_report": {
+      "Cardiology": {
+        "precision": 1.0,
+        "recall": 0.9375,
+        "f1-score": 0.967741935483871,
+        "support": 32.0
+      },
+      "Dermatology": {
+        "precision": 1.0,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.9696969696969697,
+        "support": 17.0
+      },
+      "Endocrinology": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 39.0
+      },
+      "Gastroenterology": {
+        "precision": 0.9090909090909091,
+        "recall": 0.9375,
+        "f1-score": 0.9230769230769231,
+        "support": 32.0
+      },
+      "General Medicine": {
+        "precision": 0.968503937007874,
+        "recall": 0.984,
+        "f1-score": 0.9761904761904762,
+        "support": 250.0
+      },
+      "Genetics & Rare Diseases": {
+        "precision": 0.9880478087649402,
+        "recall": 0.992,
+        "f1-score": 0.9900199600798403,
+        "support": 250.0
+      },
+      "Infectious Disease": {
+        "precision": 0.9642857142857143,
+        "recall": 1.0,
+        "f1-score": 0.9818181818181818,
+        "support": 27.0
+      },
+      "Medication & Pharmacology": {
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1-score": 0.75,
+        "support": 5.0
+      },
+      "Mental Health": {
+        "precision": 1.0,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.875,
+        "support": 9.0
+      },
+      "Neurology": {
+        "precision": 0.9882352941176471,
+        "recall": 0.9882352941176471,
+        "f1-score": 0.9882352941176471,
+        "support": 85.0
+      },
+      "Oncology": {
+        "precision": 0.9775280898876404,
+        "recall": 0.9886363636363636,
+        "f1-score": 0.9830508474576272,
+        "support": 88.0
+      },
+      "Orthopedics & Rheumatology": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 28.0
+      },
+      "Respiratory": {
+        "precision": 1.0,
+        "recall": 0.9565217391304348,
+        "f1-score": 0.9777777777777777,
+        "support": 23.0
+      },
+      "accuracy": 0.9796610169491525,
+      "macro avg": {
+        "precision": 0.984283981011902,
+        "recall": 0.9310267419423431,
+        "f1-score": 0.9525083358230243,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.9799853465875021,
+        "recall": 0.9796610169491525,
+        "f1-score": 0.9792939157069199,
+        "support": 885.0
+      }
+    }
+  },
+  "intent": {
+    "best_algorithm": "Linear SVM",
+    "metrics": {
+      "accuracy": 0.9729,
+      "precision_macro": 0.866,
+      "recall_macro": 0.8717,
+      "macro_f1": 0.8686,
+      "weighted_f1": 0.9717
+    },
+    "lr_metrics": {
+      "accuracy": 0.9751,
+      "precision_macro": 0.8569,
+      "recall_macro": 0.8509,
+      "macro_f1": 0.8533,
+      "weighted_f1": 0.974
+    },
+    "svm_metrics": {
+      "accuracy": 0.9729,
+      "precision_macro": 0.866,
+      "recall_macro": 0.8717,
+      "macro_f1": 0.8686,
+      "weighted_f1": 0.9717
+    },
+    "labels": [
+      "Causes",
+      "Diagnosis",
+      "General Information",
+      "Medication",
+      "Prevention",
+      "Prognosis",
+      "Risk Factors",
+      "Symptoms",
+      "Treatment"
+    ],
+    "confusion_matrix": [
+      [
+        179,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        47,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        286,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        27,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        166,
+        0
+      ],
+      [
+        0,
+        0,
+        11,
+        0,
+        1,
+        0,
+        0,
+        0,
+        127
+      ]
+    ],
+    "classification_report": {
+      "Causes": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 179.0
+      },
+      "Diagnosis": {
+        "precision": 0.9791666666666666,
+        "recall": 0.9591836734693877,
+        "f1-score": 0.9690721649484536,
+        "support": 49.0
+      },
+      "General Information": {
+        "precision": 0.9501661129568106,
+        "recall": 0.9727891156462585,
+        "f1-score": 0.9613445378151261,
+        "support": 294.0
+      },
+      "Medication": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Prevention": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1-score": 0.9565217391304348,
+        "support": 11.0
+      },
+      "Prognosis": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 27.0
+      },
+      "Risk Factors": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 18.0
+      },
+      "Symptoms": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 166.0
+      },
+      "Treatment": {
+        "precision": 0.9477611940298507,
+        "recall": 0.9136690647482014,
+        "f1-score": 0.9304029304029304,
+        "support": 139.0
+      },
+      "accuracy": 0.9728813559322034,
+      "macro avg": {
+        "precision": 0.8659734044799994,
+        "recall": 0.8717379837626497,
+        "f1-score": 0.8685934858107717,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.9707911222366684,
+        "recall": 0.9728813559322034,
+        "f1-score": 0.9717147758831225,
+        "support": 885.0
+      }
+    }
+  }
+}

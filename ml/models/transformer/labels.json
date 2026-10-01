@@ -1,0 +1,29 @@
+{
+  "categories": [
+    "Cardiology",
+    "Dermatology",
+    "Endocrinology",
+    "Gastroenterology",
+    "General Medicine",
+    "Genetics & Rare Diseases",
+    "Infectious Disease",
+    "Medication & Pharmacology",
+    "Mental Health",
+    "Neurology",
+    "Oncology",
+    "Orthopedics & Rheumatology",
+    "Respiratory"
+  ],
+  "intents": [
+    "Causes",
+    "Diagnosis",
+    "General Information",
+    "Medication",
+    "Prevention",
+    "Prognosis",
+    "Risk Factors",
+    "Side Effects",
+    "Symptoms",
+    "Treatment"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "summary": "Benchmarking Traditional ML vs Deep Learning (BiLSTM) vs Multi-Task Transformer on MedQuAD and Open-Domain Test Sets",
+  "models": {
+    "Baseline (Linear SVM)": {
+      "type": "Traditional Machine Learning",
+      "backbone": "TF-IDF (10k n-grams) + Calibrated Linear SVM",
+      "domain": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0
+      },
+      "category": {
+        "accuracy": 0.9797,
+        "precision_macro": 0.9843,
+        "recall_macro": 0.931,
+        "macro_f1": 0.9525,
+        "weighted_f1": 0.9793
+      },
+      "intent": {
+        "accuracy": 0.9729,
+        "precision_macro": 0.866,
+        "recall_macro": 0.8717,
+        "macro_f1": 0.8686,
+        "weighted_f1": 0.9717
+      },
+      "inference_speed_ms": 1.2,
+      "parameter_count": "~35,000 coefficients"
+    },
+    "Deep Learning (BiLSTM)": {
+      "type": "Recurrent Deep Learning",
+      "backbone": "Word Embedding (128) + 2-layer BiLSTM (128) + Shared Dense",
+      "domain": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0
+      },
+      "category": {
+        "accuracy": 0.9446,
+        "precision_macro": 0.9218,
+        "recall_macro": 0.9483,
+        "macro_f1": 0.9258,
+        "weighted_f1": 0.952
+      },
+      "intent": {
+        "accuracy": 0.9977,
+        "precision_macro": 0.9988,
+        "recall_macro": 0.9972,
+        "macro_f1": 0.998,
+        "weighted_f1": 0.9977
+      },
+      "inference_speed_ms": 4.8,
+      "parameter_count": "~1,350,000 weights"
+    },
+    "Multi-Task Transformer": {
+      "type": "Contextual Transformer (SOTA)",
+      "backbone": "BERT-Tiny Contextual Encoder + Multi-Task Joint Projections",
+      "domain": {
+        "accuracy": 1.0,
+        "precision_macro": 1.0,
+        "recall_macro": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0
+      },
+      "category": {
+        "accuracy": 0.9842,
+        "precision_macro": 0.9817,
+        "recall_macro": 0.9551,
+        "macro_f1": 0.9643,
+        "weighted_f1": 0.984
+      },
+      "intent": {
+        "accuracy": 0.9966,
+        "precision_macro": 0.8789,
+        "recall_macro": 0.8881,
+        "macro_f1": 0.8833,
+        "weighted_f1": 0.9955
+      },
+      "inference_speed_ms": 11.5,
+      "parameter_count": "~4,400,000 weights"
+    }
+  },
+  "chart_data": [
+    {
+      "task": "Domain (Medical vs Non-Med)",
+      "Baseline_SVM": 100.0,
+      "BiLSTM": 100.0,
+      "Transformer": 100.0
+    },
+    {
+      "task": "Category Accuracy",
+      "Baseline_SVM": 97.97,
+      "BiLSTM": 94.46,
+      "Transformer": 98.42
+    },
+    {
+      "task": "Category Macro F1",
+      "Baseline_SVM": 95.25,
+      "BiLSTM": 92.58,
+      "Transformer": 96.43
+    },
+    {
+      "task": "Intent Accuracy",
+      "Baseline_SVM": 97.28999999999999,
+      "BiLSTM": 99.77000000000001,
+      "Transformer": 99.66000000000001
+    },
+    {
+      "task": "Intent Macro F1",
+      "Baseline_SVM": 86.86,
+      "BiLSTM": 99.8,
+      "Transformer": 88.33
+    }
+  ]
+}
